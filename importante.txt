@@ -1,0 +1,5 @@
+ejecutar con python3 dos comandos para actualizar
+python3 moodle2owl.py
+cp moodle.owl /var/www/html/static/
+
+

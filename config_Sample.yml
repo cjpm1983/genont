@@ -1,0 +1,26 @@
+#################################################################################
+#####Configuración : Modifique los parámetros a continuación acorde a su entorno.
+
+#Conexión
+dbusername : cpalacios
+dbpass : lulu
+dbhostname : localhost
+dbname : "moodletic"
+
+moodlebaseurl : "https://moodleredtic.uclv.cu/"
+
+
+#Direcciones para acceder a la url de un curso o al perfil de un usuario 
+#Si usted no lo ha cambiado por defecto es  /course/view.php?id:2
+cprofile : "course/view.php?id="
+#Si usted no lo ha cambiado por defecto es /user/profile.php?id:14
+uprofile : "user/profile.php?id="
+
+#Datos de Ontologia
+#Donde se almacenará el archivo moodle.owl   En este caso se creó una carpeta 
+#static dentro de la carpeta publica del sitio
+repositorio : "" #/var/www/html/moodleredtic.uclv.cu/public_html/static
+#Ubicación http de la ontología. En este caso accediendo a la carpeta static creada dentro del sitio
+ontologia : "https://moodleredtic.uclv.cu/static/moodle.owl"
+
+##############################################################
