@@ -56,7 +56,7 @@ else:
      print("sin argumentos buscando entonces config.yml")
      if os.path.exists('config.yml'):
           with open("%s/config.yml" % os.getcwd(),"r") as ymlfile:
-               cfg = yaml.load(ymlfile)
+               cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
                ################################################################################
                #####Configuracion : Modifique los parametros a continuacion acorde a su entorno
 
